@@ -3,7 +3,7 @@
     border-radius: 5px;
     box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
     color: #fff;
-    background-color: #909488;
+    background: linear-gradient(90deg, rgba(1,36,0,0.6530987394957983) 0%, rgba(9,121,75,1) 13%, rgba(42,213,148,0.8491771708683473) 42%, rgba(7,158,90,0.7455357142857143) 60%, rgba(255,255,255,1) 74%);
     margin: 20px auto 0 auto;
     padding: 0 20px 20px 20px;
 }
@@ -47,7 +47,7 @@
     padding-left: 20px;
 }
 
-.parameter-row {
+.parameter {
     display: flex;
     justify-content: space-between;
 }
@@ -63,4 +63,5 @@
     text-align: right;
     font-weight: 600;
     font-size: 13px;
+    color: #212121;
 }
