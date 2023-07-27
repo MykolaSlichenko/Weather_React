@@ -44,7 +44,7 @@ function App() {
         <h1> Search for current weatner and forecast</h1>
       <Search onSearchChange={handleOnSearchChange} />
         {currentWeather && <CurrentWeather data={currentWeather} />}
-        {currentWeather && <div className='show-daily' onClick={handleOpenDaily}>Show Daily</div>}
+        {currentWeather && <button className='show-daily' onClick={handleOpenDaily}>{daily ? 'Hide Hourly' : 'Show Hourly'}</button>}
         {daily ? forecast && <Forecast data={forecast} /> : null}
     </div>
   );

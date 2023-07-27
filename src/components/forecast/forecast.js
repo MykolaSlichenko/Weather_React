@@ -1,62 +1,70 @@
-import React from "react";
-// import {
-//     Accordion,
-//     AccordionItem,
-//     AccordionItemHeading,
-//     AccordionItemButton,
-//     AccordionItemPanel,
-// } from "react-accessible-accordion";
+import React, { useState } from "react";
 import "./forecast .css";
 
-const WEEK_DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-
 const Forecast = ({ data }) => {
-    const dayInAWeek = new Date().getDay();
-    const forecastDays = WEEK_DAYS.slice(dayInAWeek, WEEK_DAYS.length).concat(WEEK_DAYS.slice(0, dayInAWeek));
+    console.log('data', data);
+
+    const [selectedItem, setSelectedItem] = useState(null);
+
+    const handleItemClick = (index) => {
+        setSelectedItem(data.list[index]);
+    };
+
+    const closeModal = () => {
+        setSelectedItem(null);
+    };
 
     return (
         <>
-            {/*<label className="title">Daily</label>*/}
             <div>
                 {data.list.slice(0, 7).map((item, idx) => (
-                    <div  key={idx}>
+                    <div key={idx} onClick={() => handleItemClick(idx)}>
                         <div className="daily-item">
                             <img src={`icons/${item.weather[0].icon}.png`} className="icon-small" alt="weather" />
-                            <label className="day">{forecastDays[idx]}</label>
+                            <label className="day">{item.dt_txt.slice(5, -3)}</label>
+                            {/*<label className="day">{forecastDays[idx]}</label>*/}
                             <label className="description">{item.weather[0].description}</label>
-                            <label className="min-max">{Math.round(item.main.temp_max)}°C /{Math.round(item.main.temp_min)}°C</label>
+                            <label className="min-max">{Math.round(item.main.temp)}°C</label>
                         </div>
-                        {/*<div>*/}
-                            {/*<div className="daily-details-grid">*/}
-                                {/*<div className="daily-details-grid-item">*/}
-                                    {/*<label>Pressure:</label>*/}
-                                    {/*<label>{item.main.pressure}</label>*/}
-                                {/*</div>*/}
-                                {/*<div className="daily-details-grid-item">*/}
-                                    {/*<label>Humidity:</label>*/}
-                                    {/*<label>{item.main.humidity}</label>*/}
-                                {/*</div>*/}
-                                {/*<div className="daily-details-grid-item">*/}
-                                    {/*<label>Clouds:</label>*/}
-                                    {/*<label>{item.clouds.all}%</label>*/}
-                                {/*</div>*/}
-                                {/*<div className="daily-details-grid-item">*/}
-                                    {/*<label>Wind speed:</label>*/}
-                                    {/*<label>{item.wind.speed} m/s</label>*/}
-                                {/*</div>*/}
-                                {/*<div className="daily-details-grid-item">*/}
-                                    {/*<label>Sea level:</label>*/}
-                                    {/*<label>{item.main.sea_level}m</label>*/}
-                                {/*</div>*/}
-                                {/*<div className="daily-details-grid-item">*/}
-                                    {/*<label>Feels like:</label>*/}
-                                    {/*<label>{item.main.feels_like}°C</label>*/}
-                                {/*</div>*/}
-                            {/*</div>*/}
-                        {/*</div>*/}
                     </div>
                 ))}
             </div>
+
+            {selectedItem && (
+                <div key="modal" className="modal">
+                    <div className="modal-content">
+                        <span className="close" onClick={closeModal}>&times;</span>
+                        <div>
+                            <div className="daily-details-grid">
+                                <div className="daily-details-grid-item">
+                                    <label>Pressure:</label>
+                                    <label>{Math.round(selectedItem.main.pressure * 0.750062)}mmHg</label>
+                                </div>
+                                <div className="daily-details-grid-item">
+                                    <label>Humidity:</label>
+                                    <label>{selectedItem.main.humidity}%</label>
+                                </div>
+                                <div className="daily-details-grid-item">
+                                    <label>Clouds:</label>
+                                    <label>{selectedItem.clouds.all}%</label>
+                                </div>
+                                <div className="daily-details-grid-item">
+                                    <label>Wind speed:</label>
+                                    <label>{selectedItem.wind.speed} m/s</label>
+                                </div>
+                                <div className="daily-details-grid-item">
+                                    <label>Sea level:</label>
+                                    <label>{selectedItem.main.sea_level}m</label>
+                                </div>
+                                <div className="daily-details-grid-item">
+                                    <label>Feels like:</label>
+                                    <label>{selectedItem.main.feels_like}°C</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            )}
         </>
     );
 };
