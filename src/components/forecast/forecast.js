@@ -5,6 +5,7 @@ const Forecast = ({ data }) => {
     console.log('data', data);
 
     const [selectedItem, setSelectedItem] = useState(null);
+  const [forecastByHour, setforecastByHour] = useState(data.list.slice(0, 10));
 
     const handleItemClick = (index) => {
         setSelectedItem(data.list[index]);
@@ -14,10 +15,14 @@ const Forecast = ({ data }) => {
         setSelectedItem(null);
     };
 
+  const handleShowMoreItem = () => {
+    setforecastByHour(data.list.slice(0, 20));
+  };
+
     return (
         <>
             <div>
-                {data.list.slice(0, 7).map((item, idx) => (
+                {forecastByHour.map((item, idx) => (
                     <div key={idx} onClick={() => handleItemClick(idx)}>
                         <div className="daily-item">
                             <img src={`icons/${item.weather[0].icon}.png`} className="icon-small" alt="weather" />
@@ -29,6 +34,7 @@ const Forecast = ({ data }) => {
                     </div>
                 ))}
             </div>
+          <button onClick={() => handleShowMoreItem()}>Show More</button>
 
             {selectedItem && (
                 <div key="modal" className="modal">

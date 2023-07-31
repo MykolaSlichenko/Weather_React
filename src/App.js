@@ -31,17 +31,17 @@ function App() {
         Promise.all([currentWeatherFetch, forecastFetch])
             .then(async (response) => {
                 const weatherResponse = await response[0].json();
-                const forcastResponse = await response[1].json();
+                const forecastResponse = await response[1].json();
 
                 setCurrentWeather({ city: searchData.label, ...weatherResponse });
-                setForecast({ city: searchData.label, ...forcastResponse });
+                setForecast({ city: searchData.label, ...forecastResponse });
             })
             .catch(console.log);
     };
 
     return (
     <div className="container">
-        <h1> Search for current weatner and forecast</h1>
+        <h1> Search for current weather and forecast</h1>
       <Search onSearchChange={handleOnSearchChange} />
         {currentWeather && <CurrentWeather data={currentWeather} />}
         {currentWeather && <button className='show-daily' onClick={handleOpenDaily}>{daily ? 'Hide Hourly' : 'Show Hourly'}</button>}

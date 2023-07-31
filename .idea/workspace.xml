@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a7030b6-f5de-46b3-bf5e-a5538ce6bad7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/01d.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/01d.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/02d.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/02d.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/02n.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/02n.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/03d.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/03d.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/03n.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/03n.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/04d.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/04d.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/04n.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/04n.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/09d.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/09d.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/09n.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/09n.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/10d.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/10d.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/10n.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/10n.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/11d.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/11d.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/11n.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/11n.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/current-weather/current-weather.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/current-weather/current-weather.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/current-weather/current-weather.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/current-weather/current-weather.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/forecast/forecast .css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/forecast/forecast .css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/forecast/forecast.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/forecast/forecast.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -34,12 +17,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+    <leaf>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="46" column="121" selection-start-line="46" selection-start-column="121" selection-end-line="46" selection-end-column="121" />
+            <state relative-caret-position="-76">
+              <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
               <folding>
                 <element signature="e#1#32#0" expanded="true" />
               </folding>
@@ -47,32 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.css">
+      <file leaf-file-name="search.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/search/search.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forecast.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/forecast/forecast.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-135">
-              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forecast .css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/forecast/forecast .css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="97" column="12" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="12" />
+            <state relative-caret-position="13">
+              <caret line="1" column="55" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -80,31 +42,31 @@
       <file leaf-file-name="current-weather.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/current-weather/current-weather.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="247">
               <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/api.js">
+      <file leaf-file-name="forecast.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/forecast/forecast.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="current-weather.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/current-weather/current-weather.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            <state relative-caret-position="208">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>slice</find>
+      <find>daily</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -122,9 +84,9 @@
         <option value="$PROJECT_DIR$/src/api.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/current-weather/current-weather.js" />
-        <option value="$PROJECT_DIR$/src/components/forecast/forecast.js" />
         <option value="$PROJECT_DIR$/src/components/forecast/forecast .css" />
         <option value="$PROJECT_DIR$/src/components/current-weather/current-weather.css" />
+        <option value="$PROJECT_DIR$/src/components/forecast/forecast.js" />
       </list>
     </option>
   </component>
@@ -155,47 +117,41 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="weather-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weather-react" type="462c0819:PsiDirectoryNode" />
+              <item name="Weather_React" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Weather_React" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="weather-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weather-react" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weather-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weather-react" type="462c0819:PsiDirectoryNode" />
+              <item name="Weather_React" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Weather_React" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="weather-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weather-react" type="462c0819:PsiDirectoryNode" />
+              <item name="Weather_React" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Weather_React" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="weather-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weather-react" type="462c0819:PsiDirectoryNode" />
+              <item name="Weather_React" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Weather_React" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="current-weather" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="weather-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weather-react" type="462c0819:PsiDirectoryNode" />
+              <item name="Weather_React" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Weather_React" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="forecast" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="weather-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weather-react" type="462c0819:PsiDirectoryNode" />
+              <item name="Weather_React" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Weather_React" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="search" type="462c0819:PsiDirectoryNode" />
@@ -204,6 +160,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,6 +171,7 @@
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -246,31 +204,42 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48693000" />
+    <option name="totallyTimeSpent" value="51487000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1366" height="676" extended-state="6" />
+    <frame x="55" y="-4" width="1311" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21742368" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496124" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="npm" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.20522387" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32973805" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21742368" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3283582" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.20522387" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +254,15 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#1#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -353,9 +331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -394,9 +369,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -421,9 +393,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -488,40 +457,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-select-async-paginate/dist/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="88" column="14" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Modal/Modal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Modal/Modal.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/search/search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-select-async-paginate/dist/index.d.ts" />
+    <entry file="file://$PROJECT_DIR$/src/components/Modal/Modal.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/Modal/Modal.css" />
     <entry file="file://$PROJECT_DIR$/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -543,16 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="46" column="121" selection-start-line="46" selection-start-column="121" selection-end-line="46" selection-end-column="121" />
-          <folding>
-            <element signature="e#1#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/forecast/forecast .css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -560,27 +488,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/current-weather/current-weather.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/search/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="1" column="55" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/current-weather/current-weather.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/forecast/forecast.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="208">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/current-weather/current-weather.js">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/current-weather/current-weather.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        <state relative-caret-position="-76">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding>
+            <element signature="e#1#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
